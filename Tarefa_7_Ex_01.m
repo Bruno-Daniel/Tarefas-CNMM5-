@@ -31,9 +31,9 @@ display(alfas);
 #verifique se o máximo dos valores absolutos dos alfas sejam menores que 1
 #--------------------------------------------------------------------------------------
 if (max(abs(alfas))<1)
-  printf("o valor máximo dos alfas é menor que 1, logo, o sistema é convergente");
+  printf("o valor máximo absoluto dos alfas é menor que 1, logo, o sistema é convergente");
 else
-   printf("o valor máximo dos alfas é maior que 1, logo, o sistema não é convergente");
+   printf("o valor máximo absoluto dos alfas é maior que 1, logo, o sistema não é convergente");
 endif
 
 
@@ -56,4 +56,4 @@ alfas =
 
    0.66667   0.83333   0.85714
 
-o valor máximo dos alfas é menor que 1, logo, o sistema é convergente>>
+o valor máximo absoluto dos alfas é menor que 1, logo, o sistema é convergente>>

@@ -91,7 +91,7 @@ for k = 1:ordem
     
     
 #------------------------------------------------------------------------------
-  #subtraia esta somatoria ao valor do vetor de igualdade do sistema (c(i)) e d
+  #subtraia esta somatoria ao valor do vetor de igualdade do sistema (c(i)) e
   #divida pelo elemento da diagonal principal nesta linha (u(i,i))
   #assim teremos o valor de x(i) da solução
 #------------------------------------------------------------------------------

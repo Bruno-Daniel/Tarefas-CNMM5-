@@ -1,4 +1,4 @@
-#CODE-------------------------------------------------------------------------------------------------------------------
+#CODE-----------------------------------------------------------------------------------------------------------------------------------------
 
 clear
 home
@@ -8,7 +8,10 @@ display(A);
 printf("Primeiro, como o sistema é de ordem 3, teremos 3 alfas.\n Determinemos então os valores destes alfas:\n\n");;
 ordem = 3;
 alfas = zeros(1,ordem);
+
+#--------------------------------------------------------------------------------------
 # para todas as linhas do sistema faça
+#--------------------------------------------------------------------------------------
 for ( i = 1:ordem)
     somatorio = 0;
   # para todas colunas desta linha faça
@@ -22,15 +25,23 @@ for ( i = 1:ordem)
   alfas(1,i) = somatorio/A(i,i);
 endfor
 display(alfas);
+
+
+#--------------------------------------------------------------------------------------
 #verifique se o máximo dos valores absolutos dos alfas sejam menores que 1
+#--------------------------------------------------------------------------------------
 if (max(abs(alfas))<1)
   printf("o valor máximo dos alfas é menor que 1, logo, o sistema é convergente");
 else
    printf("o valor máximo dos alfas é maior que 1, logo, o sistema não é convergente");
 endif
 
-#OUTPUT-----------------------------------------------------------------------------------------------------------------
-      ⚒ȀDetermine se o sistema formado pela matriz A é convergente
+
+
+
+#OUTPUT----------------------------------------------------------------------------------------------------------------------------------------
+
+Determine se o sistema formado pela matriz A é convergente
 
 A =
 
